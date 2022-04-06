@@ -5,7 +5,7 @@
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.NET.Sdk.Functions" Version="4.0.1" />
-    <ProjectReference Include="..\Common\Constants\Constants.csproj" />
+    <ProjectReference Include="..\..\common\Constants\Constants.csproj" />
   </ItemGroup>
   <ItemGroup>
     <None Update="host.json">
